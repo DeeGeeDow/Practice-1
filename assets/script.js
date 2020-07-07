@@ -6,6 +6,7 @@ function darkMode(){
     button.style.backgroundColor   = "white";
     button.style.color             = "black";
     button.innerHTML               = "Dark Mode!";
+    button.className               = "toLight";
     dark                           = true;
 }
 
@@ -14,6 +15,7 @@ function lightMode(){
     button.style.backgroundColor   = "black";
     button.style.color             = "white";
     button.innerHTML               = "Light Mode!";
+    button.className               = "toDark";
     dark                           = false;
 }
 

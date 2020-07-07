@@ -6,7 +6,7 @@
     text-decoration  : none;
     font-family      : Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align       : center;
-    font-size        : larger;
+    font-size        : 30px;
     display          : block;
     padding          : 5px 10px;
     width            : 150px;
@@ -17,4 +17,19 @@
 
 #button:hover{
     cursor: pointer;
+}
+
+.toDark{
+    transform: translateX(0);
+}
+
+.toLight{
+    transform: translateX(150px)
+}
+
+#slider{
+    width: 320px;
+    border-radius : 15px;
+    height: 45px;
+    border: 5px solid gray;
 }
